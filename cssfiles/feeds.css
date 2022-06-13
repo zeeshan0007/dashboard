@@ -1,0 +1,59 @@
+.feedApp{
+    border: 1px solid rgb(194, 188, 188);
+    background-color:whitesmoke;
+    margin-right: 2rem;
+    overflow: hidden;
+
+
+}
+.feedApp h1{
+    margin: 0;
+    padding-top: 2rem;
+    font-weight: normal;
+}
+.slick-prev {
+    left: 3% !important;
+    z-index: 1;
+  }
+  .slick-next {
+    right: 3% !important;
+    z-index: 1;
+
+  }
+.parentCard{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.slick-slide>div{
+    margin:0px 15px;
+}
+.slick-list{
+    margin:0 15px;
+}
+
+.card{
+    border:1px solid #fff;
+    background-color: black;
+    border-radius: 12px;
+    height:170px;  
+    
+}
+
+
+.card-child h3{
+    position: absolute;
+    font-size: 1.2rem;
+    color:#fff;
+    bottom: 1rem;
+    margin-left: 10px;
+ 
+}
+.card-child > img {
+    filter: blur(1px);
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

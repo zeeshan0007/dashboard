@@ -9,7 +9,7 @@ import RightBar from './RightBar'
 const Dashboard:FC=()=> {
     console.log('dash board')
   return (
-    <div>
+    <div style={{backgroundColor:"whitesmoke"}}>
         <NavBar/>
         <Grid container>
            <Grid item sm={2}>

@@ -1,0 +1,24 @@
+.feedpost{
+    margin-top: 4rem;
+}
+.comnt{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.av{
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.cm{
+    width: 100%;
+}
+.btnfp{
+    margin-left: 75%;
+    margin-bottom: 1rem;
+}
+.sfd{
+
+    margin-left: 10px;
+}

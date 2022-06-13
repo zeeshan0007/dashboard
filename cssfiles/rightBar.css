@@ -1,0 +1,64 @@
+.RightBar{
+    position: static;
+    border: 1px solid rgb(194, 188, 188);
+    background: whitesmoke;
+
+}
+.filterRB{
+    margin: 3rem;
+}
+.taskCard{
+    border: 1px solid rgb(194, 188, 188);
+    margin-top: 2rem;
+    background-color: white;
+    margin-left: 3rem;
+    width: 15rem;
+    height: 17rem;
+}
+.pdfdiv{
+text-align: center;
+margin: .5rem 0;
+}
+.category{
+
+    position: relative;
+    width: 40px;
+    height: 6px;
+    border-radius: 6px;
+    margin: 10px 0px 10px 10px;
+    background-color: #ffeb3b !important;
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.txt{
+    font-family: Muli, "Helvetica Neue", Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.87);;
+    margin:3px 0px 8px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    word-break: break-word;
+}
+.time{
+    padding: 1px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    background-color:#f44336;
+    width: 6.5rem;
+}
+.da{
+    margin-left: 2px;
+    margin-top: 3px;
+}
+.btm{
+    margin-top: 2px;
+}
+.s1{
+    margin-left: 2px;
+}
+.s2{
+    margin-left: 11rem;
+}

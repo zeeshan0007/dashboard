@@ -76,11 +76,11 @@ const NavBar:FC = () => {
       }}>
         <Toolbar>
           <Box sx={{ flexGrow: 0 }}>
-            <div style={{border:"1px solid black", padding:'10px'}}>
+            <div style={{ padding:'10px'}}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src={rasmos} />
-                <span>Sergio Ramas</span>
+                <span>Sergio Ramos</span>
               </IconButton>
             </Tooltip>
             </div>
@@ -109,7 +109,7 @@ const NavBar:FC = () => {
             </Menu>
          
           </Box>
-          <Search style={{border:'1px solid black'}}>
+          <Search>
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>

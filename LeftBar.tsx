@@ -23,6 +23,8 @@ import imagee from '../../assets/images/rasmos.jpeg'
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import AddIcon from '@mui/icons-material/Add';
+import ListItemButton from '@mui/material/ListItemButton';
+
 
 
 
@@ -180,15 +182,24 @@ export default function MiniDrawer() {
            {itemsList.map((item, index) => {
                   const { text, icon, onClick } = item;
                 return (
-                        <ListItem  button key={text} onClick={onClick}>
+                        <ListItem disablePadding sx={{ display: 'block' }} button key={text} onClick={onClick}>
+                          <ListItemButton
+                              sx={{
+                                minHeight: 48,
+                                justifyContent: open ? 'initial' : 'center',
+                                px: 2.5,
                         
-                  {icon &&  <ListItemIcon sx={{
-                        minWidth: 0,
-                        mr: open ? 3 : 'auto',
-                        justifyContent: 'center',
-                      }} style={{color:'white'}}> {icon} </ListItemIcon>}
-                        <ListItemText primary={text} />
-                    </ListItem>
+                              }}
+                           >
+                            {icon &&  <ListItemIcon sx={{
+                                
+                                  justifyContent: 'center',
+                                }} style={{color:'white'}}> {icon}
+                                </ListItemIcon>}
+                                  <ListItemText primary={text} />
+                          </ListItemButton>
+                        </ListItem>
+                    
                     );
               })}
         </List>
